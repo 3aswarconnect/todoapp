@@ -1,0 +1,58 @@
+.todo-form {
+  max-width: 400px;
+  width: 100%;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-control {
+  width: calc(100% - 86px); /* Adjusted width to accommodate the button */
+  padding: 10px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.btn-primary {
+  width: auto; /* Set a fixed width for the button */
+  padding: 5px;
+  height:45px;
+  font-size: 16px;
+  background-color: #007bff;
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.list-group-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 18px;
+}
+
+.list-group-item input[type='checkbox'] {
+  margin-right: 10px;
+}
+
+.list-group-item span {
+  flex-grow: 1;
+  word-break: break-all;
+}
+
+.btn-danger {
+  padding: 4px 8px;
+  font-size: 14px;
+  background-color: #dc3545;
+  border: none;
+  color: #fff;
+  border-radius: 3px;
+}
+
+.blur {
+  filter: blur(5px);
+  pointer-events: none;
+}
